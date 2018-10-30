@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.date-picker-container {
+  height: 600px;
+  padding-left: 64px;
+  align-items: center;
+  display: flex;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projection {
+  width: 400px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.projection-row {
+  display: flex;
+}
+
+.projection-row-section {
+  flex: 1 1 0;
+  min-width: 0;
+  border: 1px solid lightgray;
+}
+
+.projection-sub-label {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.projection-value {
+  padding: 8px;
+}
+
+.number {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.winner {
+  outline: solid green;
+}
