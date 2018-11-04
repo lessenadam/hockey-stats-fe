@@ -23,6 +23,7 @@ code {
 .results-container {
   display: flex;
   flex-wrap: wrap;
+  padding-right: 16px;
 }
 
 .projection {
